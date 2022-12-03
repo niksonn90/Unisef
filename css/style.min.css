@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+}
+
+.section {
+  background: #424242;
+}
+
+body {
+  font-family: "SF Pro Display";
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+header {
+  padding: 0 15px;
+  height: 44px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header a {
+  color: #f5f5f7;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 44px;
+}
+
+.logo {
+  background: #e5e5e5;
+}
+.logo .unicef {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+}
+.logo .unicef img {
+  margin-right: 20px;
+}
+.logo .unicef a {
+  color: #0066cc;
+}
+
+.iphone_pro {
+  background: #fafafd;
+  padding-top: 69px;
+  margin-bottom: 13px;
+}
+
+.pro_iphone h1 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 44px;
+  color: #1d1d1f;
+  text-align: center;
+}
+.pro_iphone p {
+  margin: 9px;
+  color: #000000;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 44px;
+  text-align: center;
+}
+
+.box_pro {
+  display: flex;
+  justify-content: center;
+}
+
+.link {
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+.link a {
+  color: #0066cc;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 44px;
+}
+
+.img_iphone {
+  background: url(../img/iPhone\ 13\ Pro.jpg);
+  height: 477px;
+  background-position: center;
+}
+
+.iphone_se {
+  background: url(../img/iPhone\ SE\ image.jpg);
+  height: 357px;
+  background-position: center;
+}
+
+.new h3 {
+  color: #161618;
+  font-weight: 590;
+  font-size: 21px;
+  line-height: 44px;
+  text-align: center;
+}
+
+.img_se {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img_se h2 {
+  margin-right: 15px;
+  color: #161618;
+  font-weight: 590;
+  font-size: 56px;
+  line-height: 44px;
+  margin-bottom: 10px;
+}
+
+.new p {
+  color: #000000;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 44px;
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+.link_centr {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 26px;
+}
+
+.bac {
+  background: #fafafd;
+  height: 103px;
+}
+
+.ipad {
+  background: #000000;
+  padding: 50px;
+}
+
+.ipad_air {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box_left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.box_left h2 {
+  font-weight: 590;
+  font-size: 56px;
+  line-height: 44px;
+  color: #FFFFFF;
+}
+.box_left p {
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 44px;
+  margin: 8px 0 10px;
+}
+
+.box_text {
+  display: flex;
+}
+
+.box_riht img {
+  max-width: 590px;
+}
+
+@media (max-width: 991px) {
+  .box_riht img {
+    max-width: 400px;
+  }
+  .box_left h2 {
+    font-weight: 590;
+    font-size: 45px;
+  }
+  .box_left p {
+    font-size: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .ipad_air {
+    flex-direction: column;
+  }
+  .box_riht {
+    margin: 0 auto;
+  }
+  .box_riht img {
+    max-width: 250px;
+  }
+  header a {
+    display: none;
+  }
+  .unicef img {
+    max-width: 150px;
+  }
+  .unicef a {
+    display: none;
+  }
+  .pro_iphone h1 {
+    font-size: 40px;
+  }
+  .pro_iphone p {
+    font-size: 23px;
+  }
+  .link a {
+    font-size: 17px;
+  }
+  .img_se h2 {
+    font-size: 40px;
+  }
+  .img_se img {
+    height: 35px;
+  }
+  .new p {
+    font-size: 20px;
+  }
+  .box_left p {
+    font-size: 18px;
+  }
+}
+.assortment {
+  padding: 22px;
+}
